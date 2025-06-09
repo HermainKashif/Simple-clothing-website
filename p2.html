@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leona Sale Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #FF99CC;
+            position: relative;
+        }
+
+        .cart-icon {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .cart-icon:hover {
+            color: #444;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #FF99CC;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .product-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .product-price {
+            color: black;
+        }
+
+        .add-to-cart {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .add-to-cart:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h2>Our Products</h2>
+    <a href="#" class="cart-icon">&#128722; Cart</a> <!-- Unicode for cart icon -->
+</div>
+
+<div class="product-grid">
+    <!-- Products -->
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/736x/dc/08/bd/dc08bd1ac1c1133a1bde6a8083603bd9.jpg" alt="Shirt">
+        </div>
+        <p class="product-title">Shirt</p>
+        <p class="product-price">PKR 5000</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/736x/3a/00/96/3a0096be1722cf5b19c0c4bec7e7b6e9.jpg" alt="Shirt">
+        </div>
+        <p class="product-title">Shirt</p>
+        <p class="product-price">PKR 5000</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/736x/37/cf/87/37cf878bd3190407dfecc39d4856b8c7.jpg" alt="Shirt">
+        </div>
+        <p class="product-title">Shirt</p>
+        <p class="product-price">PKR 5000</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/736x/96/f6/8f/96f68f607a2121e88ef4c8b88a76ef7b.jpg" alt="Shirt">
+        </div>
+        <p class="product-title">Shirt</p>
+        <p class="product-price">PKR 5000</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/474x/00/0b/5b/000b5b3f3213f609e1dfc169345aa751.jpg" alt="Jeans">
+        </div>
+        <p class="product-title">Jeans</p>
+        <p class="product-price">PKR 5500</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/474x/2e/0c/d1/2e0cd10f9974d4a8d143acd83bea5953.jpg" alt="Jeans">
+        </div>
+        <p class="product-title">Jeans</p>
+        <p class="product-price">PKR 5500</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/474x/10/ae/e9/10aee9bb20aa6dce4f51ca164383b556.jpg" alt="Jeans">
+        </div>
+        <p class="product-title">Jeans</p>
+        <p class="product-price">PKR 5500</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/474x/d9/84/5c/d9845c426c6645939f4194ac49595dc8.jpg" alt="Jeans">
+        </div>
+        <p class="product-title">Jeans</p>
+        <p class="product-price">PKR 5500</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/736x/62/a7/28/62a7280969b419b177cdfeba69c9ee1c.jpg" alt="Shirt">
+        </div>
+        <p class="product-title">Shirt</p>
+        <p class="product-price">PKR 5500</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/736x/73/e3/8d/73e38d41c562f0864cbc52f07b8a261a.jpg" alt="Shirt">
+        </div>
+        <p class="product-title">Shirt</p>
+        <p class="product-price">PKR 5500</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/736x/19/89/80/19898069222290def9e7c30af259dae9.jpg" alt="Jeans">
+        </div>
+        <p class="product-title">Jeans</p>
+        <p class="product-price">PKR 5500</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/736x/32/88/d5/3288d5510860709f33dbbde29df23e94.jpg" alt="Jeans">
+        </div>
+        <p class="product-title">Jeans</p>
+        <p class="product-price">PKR 5500</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/736x/d2/39/8f/d2398f1066ac34a69ffc2959a12b1646.jpg" alt="Shirt">
+        </div>
+        <p class="product-title">Shirt</p>
+        <p class="product-price">PKR 5500</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/736x/b2/52/47/b252474deaf56f925b208b2db9cbc991.jpg" alt="Shirt">
+        </div>
+        <p class="product-title">Shirt</p>
+        <p class="product-price">PKR 5500</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/736x/80/b8/a1/80b8a1def01528e4d2840f4209f2316a.jpg" alt="Jeans">
+        </div>
+        <p class="product-title">Jeans</p>
+        <p class="product-price">PKR 5500</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+
+    <div class="product">
+        <div class="product-container">
+            <img src="https://i.pinimg.com/736x/eb/f3/83/ebf38304ff76080bc236879476f1303d.jpg" alt="Jeans">
+        </div>
+        <p class="product-title">Jeans</p>
+        <p class="product-price">PKR 5500</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2025 Leona Store. All rights reserved.</p>
+</div>
+
+</body>
+</html>
